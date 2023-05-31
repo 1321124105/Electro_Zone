@@ -17,6 +17,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/inicio', function(){
+    return view('login');
+});
+
+Route::get('/registrar', function(){
+    return view('registrer');
+});
+
 Route::get('/index', function () {
     return view('index');
 });
